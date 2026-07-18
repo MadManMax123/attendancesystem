@@ -1,0 +1,22 @@
+{
+  "MONO_FONT": ["Cascadia Code", 11],
+  "TITLE_FONT": ["Cascadia Code", 24, "bold"],
+  "SUBTITLE_FONT": ["Cascadia Code", 11],
+
+  "CLUB_NAME": "club",
+  "LOGO_FILE": "Logo.png",
+  "CREST_FILE": "school_logo.png",
+
+  "BG": "#0b1020",
+  "PANEL_BG": "#11172b",
+  "CARD_BG": "#151d33",
+  "TEXT": "#f5f7ff",
+  "MUTED": "#aab3d1",
+  "ACCENT": "#4dd0e1",
+  "ACCENT_2": "#ff6b9b",
+  "BUTTON_BG": "#2d6cdf",
+  "BUTTON_ACTIVE": "#1f4fa3",
+  "WARNING": "#ffb86b",
+  "SUCCESS": "#43d17a",
+  "ERROR": "#ff6b6b"
+}

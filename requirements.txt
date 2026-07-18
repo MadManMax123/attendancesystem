@@ -1,0 +1,13 @@
+gspread
+pandas
+pillow
+psutil
+numpy
+ping3
+matplotlib
+seaborn
+plotly
+dash
+google-auth
+google-auth-oauthlib
+google-auth-httplib2

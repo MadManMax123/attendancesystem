@@ -99,9 +99,8 @@ def load_theme():
     except Exception:
         user_theme = {}
 
-    theme = {}
-    for k, v in defaults.items():
-        theme[k] = user_theme.get(k, v)
+    theme = dict(defaults)
+    theme.update(user_theme)
     return theme
 
 THEME = load_theme()
@@ -122,7 +121,7 @@ BUTTON_ACTIVE = THEME.get("BUTTON_ACTIVE")
 WARNING = THEME.get("WARNING")
 SUCCESS = THEME.get("SUCCESS")
 ERROR = THEME.get("ERROR")
-CLUB_NAME = THEME.get("CLUB_NAME", "club")
+CLUB_NAME = THEME.get("CLUB_NAME", "Club")
 CLUB_NAME_TITLE = CLUB_NAME.title()
 CLUB_NAME_UPPER = CLUB_NAME.upper()
 LOGO_FILE = THEME.get("LOGO_FILE", "Logo.png")
